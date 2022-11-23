@@ -10,14 +10,14 @@ import matplotlib.pyplot as plt
 import cv2
 
 #audio file
-file_path = 'app/static/uploads/tmp.wav'
+file_path = 'static/uploads/tmp.wav'
 
 #Image parameters
 SIZE = 224
 #Mel spectogram parameters
 NFFT = 1024 #Tamaño de FFT
 HOPL = 320 #Paso entre ventanas
-out = 'app/static/uploads/tmp.png'
+out = 'static/uploads/tmp.png'
 
 #File Upload
 APP_ROOT = os.path.abspath(os.path.dirname(__file__))
